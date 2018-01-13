@@ -27,7 +27,14 @@ var dashboard = new ParseDashboard({
       masterKey: 'cxXqDzC3PI1awc1Xv8wX', // Keep this key secret!
       appName: "schoollife"
     }
-  ]
+  ],
+  users: [
+    {
+      user:"root",
+      pass:"test"
+    }
+  ],
+  useEncryptedPasswords: true 
 });
 
 app.use('/dashboard', dashboard);

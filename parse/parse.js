@@ -22,7 +22,7 @@ var ParseDashboard = require('parse-dashboard');
 var dashboard = new ParseDashboard({
   "apps": [
     {
-      "serverURL": "http://localhost:1337/parse",
+      "serverURL": "http://schoolife.zhitantech.com:1337/parse",
       "appId": "schoollife",
       "masterKey": "cxXqDzC3PI1awc1Xv8wX",
       "appName": "schoollife"

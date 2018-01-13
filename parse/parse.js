@@ -20,12 +20,12 @@ app.listen(1337, function() {
 var ParseDashboard = require('parse-dashboard');
 
 var dashboard = new ParseDashboard({
-  "apps": [
+  apps: [
     {
-      "serverURL": "http://schoolife.zhitantech.com:1337/parse",
-      "appId": "schoollife",
-      "masterKey": "cxXqDzC3PI1awc1Xv8wX",
-      "appName": "schoollife"
+      serverURL: "http://schoolife.zhitantech.com/parse",
+      appId: 'schoollife',
+      masterKey: 'cxXqDzC3PI1awc1Xv8wX', // Keep this key secret!
+      appName: "schoollife"
     }
   ]
 });

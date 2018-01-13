@@ -1,0 +1,22 @@
+<style>
+</style>
+
+<template>
+  <view>
+    Hello world
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+  export default class Index extends wepy.page {
+    data = {
+    }
+    computed = {
+      now () { return new Date() }
+    }
+    async onLoad() {
+      console.log('Hello World')
+    }
+  }
+</script>

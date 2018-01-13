@@ -33,8 +33,7 @@ var dashboard = new ParseDashboard({
       user:"root",
       pass:"test"
     }
-  ],
-  useEncryptedPasswords: true 
+  ]
 });
 
 app.use('/dashboard', dashboard);

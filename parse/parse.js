@@ -1,7 +1,7 @@
 var express = require('express');
 var ParseServer = require('parse-server').ParseServer;
 var app = express();
-var uri = 'mysql://root:RNJf9A7Org@RNJf9A7Org:3306/schoollife';
+var uri = 'mysql://root:RNJf9A7Org@rm-wz9qj6860qz4f20vs.mysql.rds.aliyuncs.com:3306/schoollife';
 const MySQL = require('parse-server-mysql-adapter');
 const mysql = new MySQL(uri);
 
@@ -25,7 +25,7 @@ var dashboard = new ParseDashboard({
       "serverURL": "http://localhost:1337/parse",
       "appId": "schoollife",
       "masterKey": "cxXqDzC3PI1awc1Xv8wX",
-      "appName": "MyApp"
+      "appName": "schoollife"
     }
   ]
 });

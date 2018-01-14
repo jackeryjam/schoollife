@@ -14,7 +14,7 @@ git pull origin master
 
 # 将nginx设置为开机自启
 chkconfig nginx on
-
+chkconfig httpd on
 
 # 要在nginx的配置文件的server改成下面部分
 # import config

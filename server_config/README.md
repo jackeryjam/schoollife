@@ -15,6 +15,11 @@ git pull origin master
 # 将nginx设置为开机自启
 chkconfig nginx on
 
+
+# 要在nginx的配置文件的server改成下面部分
+# import config
+include /home/schoolife/server_config/nginx.conf;
+
 # 将boot_service.sh设置为开机启动的脚本
 chmod +x /home/schoolife/server_config/boot_service.sh
 
